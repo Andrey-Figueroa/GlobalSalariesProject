@@ -145,400 +145,417 @@
     </MiningSchema>
     <RuleSet>
       <RuleSelectionMethod criterion="firstHit"/>
-      <SimpleRule nbCorrect="137.0" recordCount="137.0" score="LOW">
+      <SimpleRule nbCorrect="117.0" recordCount="117.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="China"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="28.0" recordCount="44.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="M"/>
-          <SimplePredicate operator="equal" field="company_location" value="Canada"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="35.0" recordCount="47.0" score="HIGH">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="L"/>
-          <SimplePredicate operator="equal" field="company_location" value="Canada"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="42.0" recordCount="47.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="S"/>
-          <SimplePredicate operator="equal" field="company_location" value="Canada"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="130.0" recordCount="130.0" score="HIGH">
+      <SimpleRule nbCorrect="101.0" recordCount="101.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Switzerland"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="147.0" recordCount="147.0" score="LOW">
+      <SimpleRule nbCorrect="122.0" recordCount="122.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="India"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="28.0" recordCount="41.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="M"/>
-          <SimplePredicate operator="equal" field="company_location" value="France"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="30.0" recordCount="43.0" score="HIGH">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="L"/>
-          <SimplePredicate operator="equal" field="company_location" value="France"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="48.0" recordCount="53.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="S"/>
-          <SimplePredicate operator="equal" field="company_location" value="France"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="9.0" recordCount="14.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="lessOrEqual" field="years_experience" value="6.5"/>
-          <SimplePredicate operator="equal" field="company_size" value="M"/>
-          <SimplePredicate operator="equal" field="company_location" value="Germany"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="13.0" recordCount="20.0" score="HIGH">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="greaterThan" field="years_experience" value="6.5"/>
-          <SimplePredicate operator="equal" field="company_size" value="M"/>
-          <SimplePredicate operator="equal" field="company_location" value="Germany"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="40.0" recordCount="45.0" score="HIGH">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="L"/>
-          <SimplePredicate operator="equal" field="company_location" value="Germany"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="39.0" recordCount="49.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="S"/>
-          <SimplePredicate operator="equal" field="company_location" value="Germany"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="98.0" recordCount="144.0" score="HIGH">
+      <SimpleRule nbCorrect="84.0" recordCount="122.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="United Kingdom"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="26.0" recordCount="40.0" score="HIGH">
+      <SimpleRule nbCorrect="25.0" recordCount="39.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_size" value="M"/>
-          <SimplePredicate operator="equal" field="company_location" value="Singapore"/>
+          <SimplePredicate operator="equal" field="company_location" value="France"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="52.0" recordCount="53.0" score="HIGH">
+      <SimpleRule nbCorrect="28.0" recordCount="39.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_size" value="L"/>
-          <SimplePredicate operator="equal" field="company_location" value="Singapore"/>
+          <SimplePredicate operator="equal" field="company_location" value="France"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="22.0" recordCount="39.0" score="LOW">
+      <SimpleRule nbCorrect="40.0" recordCount="44.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_size" value="S"/>
-          <SimplePredicate operator="equal" field="company_location" value="Singapore"/>
+          <SimplePredicate operator="equal" field="company_location" value="France"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="124.0" recordCount="124.0" score="LOW">
+      <SimpleRule nbCorrect="118.0" recordCount="118.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Austria"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="22.0" recordCount="37.0" score="LOW">
+      <SimpleRule nbCorrect="6.0" recordCount="9.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="employment_type" value="CT"/>
           <SimplePredicate operator="equal" field="company_size" value="M"/>
           <SimplePredicate operator="equal" field="company_location" value="Sweden"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="44.0" recordCount="53.0" score="HIGH">
+      <SimpleRule nbCorrect="4.0" recordCount="6.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="employment_type" value="FL"/>
+          <SimplePredicate operator="equal" field="company_size" value="M"/>
+          <SimplePredicate operator="equal" field="company_location" value="Sweden"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="11.0" recordCount="13.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="employment_type" value="PT"/>
+          <SimplePredicate operator="equal" field="company_size" value="M"/>
+          <SimplePredicate operator="equal" field="company_location" value="Sweden"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="10.0" recordCount="15.0" score="HIGH">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="employment_type" value="FT"/>
+          <SimplePredicate operator="equal" field="company_size" value="M"/>
+          <SimplePredicate operator="equal" field="company_location" value="Sweden"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="39.0" recordCount="49.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_size" value="L"/>
           <SimplePredicate operator="equal" field="company_location" value="Sweden"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="28.0" recordCount="39.0" score="LOW">
+      <SimpleRule nbCorrect="26.0" recordCount="34.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_size" value="S"/>
           <SimplePredicate operator="equal" field="company_location" value="Sweden"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="131.0" recordCount="131.0" score="LOW">
+      <SimpleRule nbCorrect="103.0" recordCount="103.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="South Korea"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="119.0" recordCount="123.0" score="HIGH">
+      <SimpleRule nbCorrect="102.0" recordCount="105.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Norway"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="118.0" recordCount="133.0" score="HIGH">
+      <SimpleRule nbCorrect="86.0" recordCount="102.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="United States"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="131.0" recordCount="131.0" score="LOW">
+      <SimpleRule nbCorrect="17.0" recordCount="32.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Israel"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="119.0" recordCount="123.0" score="HIGH">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Denmark"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="131.0" recordCount="131.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Finland"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="139.0" recordCount="139.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Japan"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="16.0" recordCount="23.0" score="HIGH">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="lessOrEqual" field="remote_ratio" value="75.0"/>
           <SimplePredicate operator="equal" field="company_size" value="M"/>
-          <SimplePredicate operator="equal" field="company_location" value="Netherlands"/>
+          <SimplePredicate operator="equal" field="company_location" value="Germany"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="11.0" recordCount="14.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="greaterThan" field="remote_ratio" value="75.0"/>
-          <SimplePredicate operator="equal" field="company_size" value="M"/>
-          <SimplePredicate operator="equal" field="company_location" value="Netherlands"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="45.0" recordCount="45.0" score="HIGH">
+      <SimpleRule nbCorrect="27.0" recordCount="32.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_size" value="L"/>
-          <SimplePredicate operator="equal" field="company_location" value="Netherlands"/>
+          <SimplePredicate operator="equal" field="company_location" value="Germany"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="18.0" recordCount="30.0" score="LOW">
+      <SimpleRule nbCorrect="41.0" recordCount="55.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="lessOrEqual" field="job_description_length" value="2044.5"/>
           <SimplePredicate operator="equal" field="company_size" value="S"/>
-          <SimplePredicate operator="equal" field="company_location" value="Netherlands"/>
+          <SimplePredicate operator="equal" field="company_location" value="Germany"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="9.0" recordCount="11.0" score="HIGH">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="greaterThan" field="job_description_length" value="2044.5"/>
-          <SimplePredicate operator="equal" field="company_size" value="S"/>
-          <SimplePredicate operator="equal" field="company_location" value="Netherlands"/>
-          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="19.0" recordCount="37.0" score="LOW">
+      <SimpleRule nbCorrect="19.0" recordCount="32.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_size" value="M"/>
           <SimplePredicate operator="equal" field="company_location" value="Australia"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="44.0" recordCount="51.0" score="HIGH">
+      <SimpleRule nbCorrect="33.0" recordCount="38.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_size" value="L"/>
           <SimplePredicate operator="equal" field="company_location" value="Australia"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="29.0" recordCount="35.0" score="LOW">
+      <SimpleRule nbCorrect="27.0" recordCount="33.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_size" value="S"/>
           <SimplePredicate operator="equal" field="company_location" value="Australia"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="106.0" recordCount="106.0" score="LOW">
+      <SimpleRule nbCorrect="114.0" recordCount="114.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Ireland"/>
           <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="2593.0" recordCount="2601.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="experience_level" value="EN"/>
-          <True/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="124.0" recordCount="124.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="China"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="138.0" recordCount="138.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Canada"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="70.0" recordCount="121.0" score="HIGH">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Switzerland"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="137.0" recordCount="137.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="India"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="143.0" recordCount="143.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="France"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="169.0" recordCount="170.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Germany"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="134.0" recordCount="142.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="United Kingdom"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="128.0" recordCount="145.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Singapore"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="142.0" recordCount="142.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Austria"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="135.0" recordCount="137.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Sweden"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="133.0" recordCount="133.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="South Korea"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="24.0" recordCount="41.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="M"/>
-          <SimplePredicate operator="equal" field="company_location" value="Norway"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="32.0" recordCount="50.0" score="HIGH">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="L"/>
-          <SimplePredicate operator="equal" field="company_location" value="Norway"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="34.0" recordCount="37.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_size" value="S"/>
-          <SimplePredicate operator="equal" field="company_location" value="Norway"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="97.0" recordCount="120.0" score="LOW">
-        <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="United States"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
-        </CompoundPredicate>
-      </SimpleRule>
-      <SimpleRule nbCorrect="117.0" recordCount="117.0" score="LOW">
+      <SimpleRule nbCorrect="116.0" recordCount="116.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Israel"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="87.0" recordCount="132.0" score="LOW">
+      <SimpleRule nbCorrect="72.0" recordCount="103.0" score="HIGH">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Netherlands"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="102.0" recordCount="104.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Denmark"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
       <SimpleRule nbCorrect="115.0" recordCount="115.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Finland"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="121.0" recordCount="121.0" score="LOW">
+      <SimpleRule nbCorrect="99.0" recordCount="99.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Japan"/>
-          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="124.0" recordCount="136.0" score="LOW">
+      <SimpleRule nbCorrect="24.0" recordCount="34.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
-          <SimplePredicate operator="equal" field="company_location" value="Netherlands"/>
+          <SimplePredicate operator="equal" field="company_size" value="M"/>
+          <SimplePredicate operator="equal" field="company_location" value="Canada"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="35.0" recordCount="43.0" score="HIGH">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="L"/>
+          <SimplePredicate operator="equal" field="company_location" value="Canada"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="37.0" recordCount="43.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="S"/>
+          <SimplePredicate operator="equal" field="company_location" value="Canada"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="20.0" recordCount="27.0" score="HIGH">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="M"/>
+          <SimplePredicate operator="equal" field="company_location" value="Singapore"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="44.0" recordCount="45.0" score="HIGH">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="L"/>
+          <SimplePredicate operator="equal" field="company_location" value="Singapore"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="23.0" recordCount="38.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="S"/>
+          <SimplePredicate operator="equal" field="company_location" value="Singapore"/>
+          <SimplePredicate operator="equal" field="experience_level" value="SE"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="117.0" recordCount="117.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="China"/>
           <SimplePredicate operator="equal" field="experience_level" value="MI"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="126.0" recordCount="127.0" score="LOW">
+      <SimpleRule nbCorrect="67.0" recordCount="114.0" score="HIGH">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Switzerland"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="119.0" recordCount="119.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="India"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="100.0" recordCount="107.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="United Kingdom"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="123.0" recordCount="123.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="France"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="125.0" recordCount="125.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Austria"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="112.0" recordCount="114.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Sweden"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="96.0" recordCount="96.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="South Korea"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="20.0" recordCount="33.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="M"/>
+          <SimplePredicate operator="equal" field="company_location" value="Norway"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="10.0" recordCount="16.0" score="HIGH">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="lessOrEqual" field="years_experience" value="3.5"/>
+          <SimplePredicate operator="lessOrEqual" field="job_description_length" value="2127.0"/>
+          <SimplePredicate operator="equal" field="company_size" value="L"/>
+          <SimplePredicate operator="equal" field="company_location" value="Norway"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="10.0" recordCount="11.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="greaterThan" field="years_experience" value="3.5"/>
+          <SimplePredicate operator="lessOrEqual" field="job_description_length" value="2127.0"/>
+          <SimplePredicate operator="equal" field="company_size" value="L"/>
+          <SimplePredicate operator="equal" field="company_location" value="Norway"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="11.0" recordCount="14.0" score="HIGH">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="greaterThan" field="job_description_length" value="2127.0"/>
+          <SimplePredicate operator="equal" field="company_size" value="L"/>
+          <SimplePredicate operator="equal" field="company_location" value="Norway"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="30.0" recordCount="34.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="S"/>
+          <SimplePredicate operator="equal" field="company_location" value="Norway"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="79.0" recordCount="101.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="United States"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="136.0" recordCount="137.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Germany"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="112.0" recordCount="113.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Australia"/>
           <SimplePredicate operator="equal" field="experience_level" value="MI"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="134.0" recordCount="134.0" score="LOW">
+      <SimpleRule nbCorrect="112.0" recordCount="112.0" score="LOW">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="company_location" value="Ireland"/>
           <SimplePredicate operator="equal" field="experience_level" value="MI"/>
         </CompoundPredicate>
       </SimpleRule>
-      <SimpleRule nbCorrect="2288.0" recordCount="2628.0" score="HIGH">
+      <SimpleRule nbCorrect="100.0" recordCount="100.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Israel"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="85.0" recordCount="95.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Netherlands"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="30.0" recordCount="38.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="M"/>
+          <SimplePredicate operator="equal" field="company_location" value="Denmark"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="27.0" recordCount="38.0" score="HIGH">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="L"/>
+          <SimplePredicate operator="equal" field="company_location" value="Denmark"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="30.0" recordCount="33.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_size" value="S"/>
+          <SimplePredicate operator="equal" field="company_location" value="Denmark"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="113.0" recordCount="113.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Finland"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="110.0" recordCount="110.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Japan"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="118.0" recordCount="118.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Canada"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="102.0" recordCount="114.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="company_location" value="Singapore"/>
+          <SimplePredicate operator="equal" field="experience_level" value="MI"/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="2227.0" recordCount="2232.0" score="LOW">
+        <CompoundPredicate booleanOperator="and">
+          <SimplePredicate operator="equal" field="experience_level" value="EN"/>
+          <True/>
+        </CompoundPredicate>
+      </SimpleRule>
+      <SimpleRule nbCorrect="1972.0" recordCount="2282.0" score="HIGH">
         <CompoundPredicate booleanOperator="and">
           <SimplePredicate operator="equal" field="experience_level" value="EX"/>
           <True/>
